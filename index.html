@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="header">Jenni Merisalo</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="header">Jenni Merisalo</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+        <div id="socials-container">
+            <img src="./images/linkedin.png" alt="My LinkedIn profile" class="icon"
+                onclick="location.href='www.linkedin.com/in/jenni-merisalo-4930bb260'" />
+            <img src="./images/github.png" alt="My Github profile" class="icon"
+                onclick="location.href='https://github.com/Jennimer'" />
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="profile-container">
+            <div class="section__pic-container">
+                <img id="profile_picture" src="./images/ImageJen.JPEG" alt="JenniImage" />
+            </div>
+            <div class="section__text">
+
+                <h1 class="title">Hi, I'm Jenni, Welcome to my portfolio!
+                </h1>
+                <p class="section__text__p">I am a final year student of Business Information Technology at Laurea
+                    University of Applied Sciences. I am interested in front-end and full-stack software development -
+                    as well as UX/UI. I'm really motivated and eager to learn more and now looking for an internship to
+                    learn more and develop skills.</p>
+                <div class="profile-btn-container">
+                    <button class="btn-profile" onclick="window.open('./images/cv_jenniMerEng.pdf')">
+                        Download CV
+                    </button>
+                    <button class="btn-profile" onclick="location.href='./#contact'">
+                        Go to Github
+                    </button>
+                </div>
+            </div>
+    </section>
+    <section id="about">
+        <div class="about-container">
+            <div class="about-text-container">
+                <h1 class="title">About Me</h1>
+
+                <div class="sec-desc">
+                    <p class="section__text__p">
+                        I'm a curious team player and I come from a restaurant background. I was driven to software
+                        design by my passion for problem solving and the desire to design functional user-centric
+                        digital
+                        experiences. I believe my extensive experience in customer facing helps me understand and listen
+                        to
+                        users' needs. In my spare time, I like to solve problems in escape rooms, I keep fit, for
+                        example by running, for example, and I also like to do illustrations. You can also see some of
+                        my
+                        illustrations
+                        on this page.
+                    </p>
+                </div>
+            </div>
+            <div class="about-details-container">
+                <div class="about-row">
+                    <div class="interest-container">
+                        <div id="interest">
+                            <h3>My Interest</h3>
+                            <div class="interest-list">
+                                <p>Front-end Development</p>
+                                <p>Full-stack Development</p>
+                                <p>UI & UX</p>
+                                <p>Low Code</p>
+                                <p>Process Automation</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-image-container">
+                        <img id="about-image" src="./images/PosterCurlyPlant2.png" alt="PlantImage">
+                    </div>
+
+
+
+                    <div class="about-image-container">
+                        <img id="about-image" src="./images/FlowersCard.png" alt="FlowerImage">
+                    </div>
+                </div>
+
+                <div class="about-row">
+
+                    <div class="about-image-container">
+                        <img id="about-image" src="./images/TwoFlowersImage.png" alt="FlowerImage">
+                    </div>
+
+                    <div class="skills-container">
+
+                        <div id="skill-lists-container">
+                            <h3>My Skills</h3>
+                            <div class="skills-div">
+                                <div class="skills-list">
+                                    <p class="box-title3">Tools</p>
+                                    <p>JavaScript</p>
+                                    <p>HTML & CSS</p>
+                                    <p>NodeJS</p>
+                                    <p>React</p>
+                                    <p>SQL</p>
+                                    <p>Git</p>
+                                </div>
+                                <div class="skills-list">
+                                    <p class="box-title3">Visual</p>
+                                    <p>Illustrator</p>
+                                    <p>InDesign</p>
+                                    <p>PhotoShop</p>
+                                    <p>Figma</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="about-image-container">
+                        <img id="about-image" src="./images/FlowerImage.png" alt="FlowerImage">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section id="experience">
+        <div class="experience-title-container">
+            <h1 class="title">Education And Work Experience</h1>
+        </div>
+        <div class="experience-details-container">
+
+
+
+            <div class="education-container">
+                <h3>Education</h3>
+
+                <div class="info-text">
+                    <p class="box-title3">LAUREA UNIVERSITY OF APPLIED SCIENCES/2021-</p>
+                    <p>Business Information Technology, Developing Digital Services 165op</p>
+                    <p> The studies have included a basic understanding of the stages and tools of a software
+                        development project, the basics of web programming combined with knowledge of business needs.
+                    </p>
+
+                </div>
+
+
+                <div class="info-text">
+                    <p class="box-title3">HÄME UNIVERSITY OF APPLIED SCIENCES, WETTERHOF/2008-2013</p>
+                    <p>The design studies, included glass and ceramics design, textile design, graphic design, and
+                        service design. 210 op</p>
+
+                </div>
+
+
+
+
+                <div class="info-text">
+                    <p class="box-title3">PERHO CULINARY, TOURIST & BUSINESS COLLEGE/2000</p>
+                    <p>Restaurant and Catering Services, restaurant chef 120 op</p>
+                </div>
+
+            </div>
+
+            <div class="experience-container">
+                <h3>Work Experience</h3>
+
+
+                <div class="info-text">
+                    <p class="box-title3">SULAVA OY/2022-2023</p>
+                    <p>Test Center Admistrator</p>
+                    <p>As test centre administrator, I have been responsible for checking candidates in and out,
+                        verifying their identity and enforcing security rules for the tests. I have been responsible for
+                        and have become fluent in report writing, email and telephone communication regarding client
+                        problems and complaints, enquiries and technical problem solving. I have also been exposed to IT
+                        industry practices and Microsoft certification paths.</p>
+                </div>
+
+
+                <div class="info-text">
+                    <p class="box-title3">RESTAURANT WORKS</p>
+                    <p>20 years of experience in the restaurant industry in a variety of positions. Experience in
+                        customer service, solving their problems, Working hard in the kitchen under pressure, as well as
+                        supervisory and organisational skills.
+                    </p>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </section>
+    <section id="projects">
+
+        <h1 class="title">My Projects</h1>
+        <div class="sec-desc">
+            <p class="section__text__p">
+                Here you can see examples of my skills. Projects what I have done so far.
+            </p>
+        </div>
+        <div class="project-details-container">
+            <div class="project-container">
+                <div class="project-title">
+                    <h2 class="box-title2">Ecommerce Website</h2>
+                </div>
+                <div class="project-desc">
+                    <p>A responsive Ecommerce website using Node js, Express js, and MongoDB. Just made for a practice
+                        more about MERN stack and
+                        React UI and Redux.</p>
+                </div>
+                <div class="project-info-container">
+
+
+                    <img src="./images/EcommerceImage.png" alt="Project 1" class="project-img" />
+
+                    <div class="btn-container">
+                        <button class="project-btn" onclick="location.href='https://github.com/Jennimer/E-commerce'">
+                            Code
+                        </button>
+                        <button class="project-btn"
+                            onclick="location.href='https://e-commerce-front-mz9k.onrender.com'">
+                            Live
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="project-title">
+                    <h2 class="box-title2">Employee Register</h2>
+                </div>
+                <div class="project-desc">
+                    <p>An improved version of my full-stack course work . MERN -stack project, an employee register
+                        where you can search and filter employees, as well as add and delete.</p>
+                </div>
+                <div class="project-info-container">
+
+
+                    <img src="./images/ImageEmployeeRegister.png" alt="Project 2" class="project-img" />
+
+
+                    <div class="btn-container">
+                        <button class="project-btn"
+                            onclick="location.href='https://github.com/Jennimer/EmployeeRegister'">
+                            Code
+                        </button>
+                        <button class="project-btn"
+                            onclick="location.href='https://employee-register-front.onrender.com'">
+                            Live
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="project-title">
+                    <h2 class="box-title2">Finnkino Movie App</h2>
+                </div>
+
+                <div class="project-desc">
+                    <p>A Movie App using HTML, CSS, and Javascript. User can search for Finnkino shows by date
+                        and location. The app fetch data from Finnkino API and gives you a list of selected movies.</p>
+                </div>
+                <div class="project-info-container">
+
+                    <img src="./images/MovieAppImage.png" alt="Project 3" class="project-img" />
+
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/Jennimer/movieapp'">
+                            Code
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://jennimer.github.io/movieapp/'">
+                            Live
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="project-title">
+                    <h2 class="box-title2">Guestbook App</h2>
+                </div>
+                <div class="project-desc">
+                    <p>A simple guestbook App, for practicing how to send data from client side to Node.js server using
+                        Ajax
+                        without page reloading.
+                        User can write messages and read messages to left by others</p>
+                </div>
+                <div class="project-info-container">
+
+                    <img src="./images/GuestBookImage.png" alt="Project 4" class="project-img" />
+
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/Jennimer/guestbook'">
+                            Code
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://guestbookjenni.onrender.com/'">
+                            Live
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="project-title">
+                    <h2 class="box-title2">ToDoApp</h2>
+                </div>
+                <div class="project-desc">
+                    <p>The basic vanilla JavaScript ToDo-App. Project covers adding, editing, checking completed the
+                        todo items. Focus was to learning bacic methods, DOM Manipulation, LocalStorage, rather than
+                        focusing on the UI</p>
+                </div>
+                <div class="project-info-container">
+
+                    <img src="./images/TodoAppImage.png" alt="Project 5" class="project-img" />
+
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/Jennimer/toDoApp'">
+                            Code
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://jennimer.github.io/toDoApp/'">
+                            Live
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="project-title">
+                    <h2 class="box-title2">Birthday Ideas</h2>
+                </div>
+                <div class="project-desc">
+                    <p>This is the output of the first HTML/CSS course. I learned the basics of HTML, CSS styles,
+                        responsiveness,
+                        Bootstrap and site navigation. It's also a showcase for printable birthday decorations that I
+                        have made in the past</p>
+                </div>
+                <div class="project-info-container">
+
+                    <img src="./images/BirthdayImage.png" alt="Project 6" class="project-img" />
+
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/Jennimer/birthday/tree/main'">
+                            Code
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://jennimer.github.io/birthday/'">
+                            Live
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <section id="contact">
+
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+
+                <p><a href="mailto:jenni.merisalo@gmail.com">jenni.merisalo@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./images/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+                <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Jenni Merisalo. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

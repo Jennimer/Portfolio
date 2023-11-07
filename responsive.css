@@ -1,0 +1,257 @@
+@media screen and (max-width: 450px) {
+    .hamburger-icon {
+        height: 14px;
+        width: 20px;
+    }
+
+    .header {
+        font-size: 26px;
+
+    }
+
+    #socials-container {
+        flex-direction: column;
+
+    }
+
+    .title {
+
+        font-size: 26px;
+    }
+
+    .education-container {
+
+        max-height: 200vh;
+    }
+
+    .experience-container {
+
+        max-height: 200vh;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 896px) {
+    .skills-container p {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+
+}
+
+@media screen and (max-width: 896px) {
+    #profile {
+
+        margin-bottom: 6rem;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+
+    .profile-container {
+
+        flex-direction: column;
+    }
+
+    #hamburger-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hamburger-icon {
+        height: 16px;
+        width: 22px;
+    }
+
+
+    .about-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .interest-container {
+        min-width: 200px;
+        max-width: 400px;
+        width: 100%;
+
+    }
+
+    button {
+        padding: 10px;
+    }
+
+    nav {
+
+        align-items: center;
+    }
+
+    #socials-container {
+
+        gap: 10px;
+    }
+
+    #contact,
+    #projects {
+        height: fit-content;
+    }
+
+
+    .project-details-container {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+
+    .about-container {
+        padding: 20px;
+    }
+
+
+    .about-details-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+
+
+    }
+
+    .profile-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+
+    .skills-container p {
+        margin-bottom: 10px;
+    }
+
+
+    .interest-container h3 {
+        margin-bottom: 30px;
+    }
+
+    #about-image {
+        min-width: 300px;
+        max-width: 400px;
+
+    }
+
+    #skill-lists-container {
+
+        padding: 20px 0 40px 0;
+
+
+    }
+
+    .skills-container {
+        min-width: 300px;
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .project-info-container {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-info-upper-container {
+        flex-direction: column;
+    }
+
+    .experience-details-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+
+    }
+
+    footer .nav-links {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    section,
+    .section-container {
+        height: fit-content;
+    }
+
+    .about-details-container {
+
+        padding: 40px;
+
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
+    }
+
+    .section__pic-container {
+
+        width: 100%;
+        padding-top: 10px;
+        max-width: 180px;
+        height: auto;
+
+    }
+
+    .section__text {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+    }
+
+    #profile_picture {
+        width: 100%;
+        max-width: 180px;
+        height: auto;
+
+    }
+
+    .about-details-container {
+
+        padding: 30px;
+
+    }
+
+
+    section,
+    .section-container {
+        height: fit-content;
+    }
+
+
+    .interest-container {
+
+        padding: 40px 0 50px 0;
+
+    }
+
+    .skills-container {
+
+        padding: 30px 0 30px 0;
+
+    }
+
+}
