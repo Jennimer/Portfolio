@@ -90,6 +90,16 @@
         align-items: center;
     }
 
+    .education-container {
+
+        max-height: 200vh;
+    }
+
+    .experience-container {
+
+        max-height: 200vh;
+    }
+
     #socials-container {
 
         gap: 10px;
@@ -192,9 +202,7 @@
     }
 
     .about-details-container {
-
         padding: 40px;
-
     }
 
 }
@@ -231,9 +239,7 @@
     }
 
     .about-details-container {
-
         padding: 30px;
-
     }
 
 
@@ -250,11 +256,54 @@
     }
 
     .skills-container {
-
         padding: 30px 0 30px 0;
-
     }
 
+}
 
 
+/* ARFFMAN PROJECTS */
+
+.ar-projects-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.ar-project-div {
+
+    display: flex;
+    max-height: 1400px;
+    padding: 30px;
+    flex-direction: column;
+
+}
+
+.ar-desc-div {
+    padding: 20px 20px 40px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ar-project-text {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 60px 30px 30px;
+}
+
+.arffman-img {
+    display: flex;
+    margin: 10px;
+    width: 80%;
+    opacity: 0.9;
+    height: auto;
+    box-shadow: 10px 10px 10px #9da49fd8;
+
+}
+
+.ar-image-div {
+    display: flex;
+    flex-direction: column;
 }
